@@ -9,7 +9,14 @@
   </head>
   <body>
     <form>
-      <select name="users" id="users" onchange="showUser(this.value)"></select>
+      <select name="users" id="users" onchange="showUser(this.value)">
+        <option value="">Select a person:</option>
+        <option value="1">sunimal</option>
+        <option value="2">nimal</option>
+      </select>
     </form>
+    <br />
+    <div id="txt-hint"><b>Person info will be listed here...</b></div>
+    <script src="logic.js" async defer></script>
   </body>
 </html>
